@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saral - CV</title>
+    <style>
+        #download-cv {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #download-cv:hover {
+            background-color: #45a049;
+        }
+
+        body {
+            font-family: 'VT323', monospace;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .header {
+            text-align: center;
+            background: linear-gradient(45deg, #4CAF50, #45a049);
+            color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Saral</h1>
+        <p>Full Stack Developer</p>
+    </div>
+    <div id="cv-content">
+
+    <div class="section">
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+            <p>Email: saralthapaliya11@gmail.com</p>
+            <p>Phone: +977 98234672462</p>
+            <p>Location: Kathmandu, Nepal</p>
+            <p>Website: protfilo.saral.com</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Summary</h2>
+        <p>Passionate and creative Full Stack Developer with expertise in HTML, CSS, JavaScript, Java, and Python. Dedicated to crafting efficient and user-friendly web applications.</p>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>SQL, MongoDB</li>
+            <li>Git, GitHub</li>
+            <li>Responsive Web Design</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Coding Experience</h2>
+        <h3>Self-Taught Programmer</h3>
+        <p>January 2021 - Present</p>
+        <ul>
+            <li>Learned and practiced coding in Python, HTML, and CSS through online courses and tutorials</li>
+            <li>Created small web projects and games to apply newly learned concepts</li>
+            <li>Participated in school coding club and contributed to group projects</li>
+        </ul>
+
+        <h3>Code.org Course Completion</h3>
+        <p>June 2022 - December 2022</p>
+        <ul>
+            <li>Completed Code.org's Computer Science Fundamentals course</li>
+            <li>Developed problem-solving skills through various coding challenges</li>
+            <li>Created simple animations and interactive stories using block-based coding</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Projects</h2>
+        <ul>
+            <li>E-commerce Website: Developed a fully functional online store using MERN stack</li>
+            <li>Task Manager App: Created a Java-based desktop application for efficient task management</li>
+            <li>Data Analysis Tool: Designed a Python script for analyzing and visualizing large datasets</li>
+        </ul>
+    </div>
+    </div>
+    <div id="download-button" style="text-align: center; margin-top: 20px;">
+        <button id="download-cv">Download CV</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script src="../javascript/cvdownload.js"></script>
+</body>
+
+</html>

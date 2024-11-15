@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saral - Full Stack Developer</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 id="logo">Saral Aout</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <img src="../images/image.png" alt="Saral" class="profile-image">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Full Stack Developer | Problem Solver | Tech Enthusiast</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hello! I'm Saral, a passionate Full Stack Developer with a keen eye for creating elegant, efficient, and user-friendly web applications. With expertise in HTML, CSS, JavaScript, Java, and Python, I bring ideas to life in the digital realm.</p>
+                        
+                        <p>My journey in tech began with a fascination for problem-solving and a desire to build things that make a difference. Over the years, I've honed my skills in both front-end and back-end development, allowing me to craft comprehensive solutions from concept to deployment.</p>
+                        
+                        <p>When I'm not coding, you can find me:</p>
+                        <ul>
+                            <li>Exploring new technologies and frameworks</li>
+                            <li>Contributing to open-source projects</li>
+                            <li>Sharing knowledge through tech blogs and mentoring</li>
+                            <li>Solving algorithmic puzzles to keep my skills sharp</li>
+                        </ul>
+                        
+                        <p>I believe in the power of continuous learning and staying adaptable in the ever-evolving tech landscape. My goal is to create impactful digital experiences that not only meet but exceed user expectations.</p>
+                        
+                        <p>Let's connect and build something amazing together!</p>
+                        
+                        <a href="./cv.html" class="btn" id="view-cv" target="_blank">View My CV</a>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>1+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>50+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skill-grid">
+                    <a href="./html-skills.html" class="skill-card" data-skill="HTML">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </a>
+                    <a href="./css-skills.html" class="skill-card" data-skill="CSS">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </a>
+                    <a href="./javascript-skills.html" class="skill-card" data-skill="JavaScript">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </a>
+                    <a href="./java-skills.html" class="skill-card" data-skill="Java">
+                        <i class="fab fa-java"></i>
+                        <h3>Java</h3>
+                    </a>
+                    <a href="./python-skills.html" class="skill-card" data-skill="Java">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <!-- Project cards will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form id="contact-form">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Saral. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../javascript/script.js"></script>
+</body>
+</html>
